@@ -62,13 +62,16 @@
                 <li><a href = "https://www.twitter.com/AriyoAhumuza">Twitter</a></li>
             </ul>
             <p>Additionally you can send me and email:</p>
-            <p><form method = "POST" action = "mailto:ahumuzaariyo@gmail.com">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name">
+            <p><form method = "POST" action = "mailto:ahumuzaariyo@gmail.com" enctype = "multipart/form-data" name = "ContactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" size = "20" name="name" id="name">
+            <br>
+            <label for = "comment">Comment:</label>
+            <textarea name = "comment" rows = "3" column = "20"></textarea>
+            <br>
             <input type = "submit" value = "Submit">
             </form>
             </p>
-            <p>It should be noted that I do not use Facebook.</p>
         </section>
         <hr>
     </body>
